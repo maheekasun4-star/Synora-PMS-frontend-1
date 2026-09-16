@@ -1,7 +1,11 @@
 import axios from 'axios';
 
 const api = axios.create({
+<<<<<<< HEAD
   //baseURL: 'http://localhost:5000/api',
+=======
+ // baseURL: 'http://localhost:5000/api',
+>>>>>>> 4d9ac71093a8d7e508f6144f209a6dfa4f6a6262
   baseURL: 'https://synora-bk-production-71ef.up.railway.app/api', // Replace with your production API URL
 });
 
